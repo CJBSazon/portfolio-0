@@ -9,7 +9,7 @@
  
 .img {
     position: relative;
-    padding-right: 550px;
+    padding-right: 500px;
 }
  
 .nav-item {
@@ -19,10 +19,9 @@
 .img1 {
     position: relative;
     border-radius: 300px;
-    top: -610px;
-    left: 70px;
+    top: 100px;
+    left: 80px;
     z-index: 1;
-    display: inline-block;
    
 }
  
@@ -35,15 +34,15 @@
     background-color: #ADA3F4;
     bottom: 1150;
     left: 100px;
+    margin-bottom: -700px;
 }
  
 .text {
     position: relative;
     left: 500px;
-    bottom: 1100px;
+    bottom: 400px;
     color: white;
     display: inline-block;
-    padding-top: -1040px;
 
 }
 .h2 {
@@ -70,4 +69,4 @@
     font-size: 15px;
 }
 
- 
+
