@@ -1,72 +1,57 @@
-#hero {
-    background: #0075FF;
-    margin-bottom: 100px;
+body {
+    background-image: url(img/bggif.gif);
 }
- 
-.body {
-    background: #6F5CF3;
+.container-fluid {
+    max-width: 1300px;
+    margin: 0 auto;
 }
- 
-.img {
-    position: relative;
-    padding-right: 500px;
+.hero {
+    max-width: 1300px;
+    margin: 0 auto;
 }
- 
-.nav-item {
+.logo {
     padding-right: 50px;
 }
- 
-.img1 {
-    position: relative;
-    border-radius: 300px;
-    top: 100px;
-    left: 80px;
-    z-index: 1;
-   
+.nav-item {
+    padding-right: 30px;
 }
- 
-.square {
-    position: relative;
-    z-index: 0;
-    height: 600px;
-    width: 350px;
-    border-radius: 100%;
-    background-color: #ADA3F4;
-    bottom: 1150;
-    left: 100px;
-    margin-bottom: -700px;
+.hero-txt {
+    padding-top: 100px;
 }
- 
-.text {
-    position: relative;
-    left: 500px;
-    bottom: 400px;
-    color: white;
-    display: inline-block;
-
-}
-.h2 {
-    font-size: 550px;
-}
-
-.btn {
-    border-radius: 100%;
+.mobile {
     margin-top: 20px;
-    margin-bottom: 40px;
-
+}
+.web {
+    width: 500px;
+}
+.profile {
+    margin: 0 auto;
 }
 
-.dl {
-    width: 50px;
-    margin-left: -10px;
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="logo"] {
+        width: 200px;
+    }
+    [class*="profile"] {
+        width: 200px;
+        text-align: center;
+    }
+    [id*="dl"] {
+        margin-top: 10px;
+    }
+    [class*="web"] {
+        width: 365px;
+    }
+    [class*="mobile"] {
+        width: 365px;
+    }
+
 }
-
-.vf {
-    width: 20px;
-}
-
-.vf1 {
-    font-size: 15px;
-}
-
-
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+  }
